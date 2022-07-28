@@ -1,0 +1,10 @@
+table {
+    border-collapse: separate;
+    border-spacing: 5px;
+    
+    
+  }
+
+  td {
+      width: 200px;
+  }

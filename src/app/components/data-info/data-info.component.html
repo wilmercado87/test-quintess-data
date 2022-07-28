@@ -1,0 +1,15 @@
+<table border="1">
+  <tr>
+    <th *ngFor="let colum of displayColumns" >
+      {{colum}}
+    </th>
+  </tr>
+
+  <tr *ngFor="let row of dataSource">
+    <td *ngFor="let colum of displayColumns; let i = index">
+        {{row['group']}}
+        {{row[colum]}}
+    </td>
+
+  </tr>
+</table>
